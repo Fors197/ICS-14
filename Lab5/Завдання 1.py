@@ -1,6 +1,6 @@
 import math
 
-x = int(input("Ввдеіть число: "))
+x = float(input("Ввдеіть число: "))
 
 if (x >= 3.86):
     f = pow((2.25*x + pow(x, 2) + math.log(abs(x)))), 1/2
