@@ -11,9 +11,19 @@ ak = (abs(ax) + abs(ay))
 bk = (abs(bx) + abs(by))
 ck = (abs(cx) + abs(cy))
 
-if (ak <= bk and ak <= ck):
-    print(f"Точка A({ax}, {ay}) найближча до початку координат")
-elif (bk <= ak and bk <= ck):
-    print(f"Точка B({bx}, {by}) найближча до початку координат")
+dist_a = math.sqrt(pow(ax, 2) + pow(ay, 2) )
+dist_b = math.sqrt(pow(bx, 2)  + pow(by, 2) )
+dist_c = math.sqrt(pow(cx, 2) + pow(cy, 2) )
+
+if(ak <= bk and ak <= ck):
+    name = "A"
+    dist = dist_a
+elif(bk <= ak and bk <= ck):
+    name = "B"
+    dist = dist_b
 else:
-    print(f"Точка C({cx}, {cy}) найближча до початку координат")
+    name = "C"
+    dist = dist_c
+
+print(f"Точка з найменшою сумою відстаней до осей: {name}")
+print(f"Відстань від точки {name} до початку координат: {dist}")
