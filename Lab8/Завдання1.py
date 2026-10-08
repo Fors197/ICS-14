@@ -11,6 +11,7 @@ for num in numbers:
     if num == 0:
         print(f"Дільники для {num}: будь-яке число (крім 0)")
         continue
+    
     abs_num = abs(num)
     divisors = []
 

@@ -4,6 +4,7 @@ M = int(input("Введіть кількість рядків (M): "))
 N = int(input("Введіть кількість стовпчиків (N): "))
 
 A = []
+
 for i in range(M):
     row = []
     for j in range(N):
