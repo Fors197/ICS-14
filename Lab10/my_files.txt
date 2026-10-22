@@ -1,0 +1,18 @@
+Файли з розширенням DOC:
+document1.doc
+document2.doc
+document3.doc
+document4.doc
+document5.doc
+
+Файли з розширенням DOCX:
+document1.docx
+document2.docx
+
+Файли з розширенням TXT:
+notes.txt
+notes2.txt
+notes3.txt
+notes4.txt
+notes5.txt
+notes6.txt
